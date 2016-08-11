@@ -1,0 +1,854 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		981165A51D5C4AB80065573F /* HLMagicToolsProduction */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 981165A61D5C4AB80065573F /* Build configuration list for PBXAggregateTarget "HLMagicToolsProduction" */;
+			buildPhases = (
+				981165A91D5C4AC00065573F /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = HLMagicToolsProduction;
+			productName = HLMagicToolsProduction;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		9811654D1D5C48580065573F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9811654C1D5C48580065573F /* main.m */; };
+		981165501D5C48580065573F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9811654F1D5C48580065573F /* AppDelegate.m */; };
+		981165531D5C48580065573F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 981165521D5C48580065573F /* ViewController.m */; };
+		981165561D5C48580065573F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 981165541D5C48580065573F /* Main.storyboard */; };
+		981165581D5C48580065573F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 981165571D5C48580065573F /* Assets.xcassets */; };
+		9811655B1D5C48580065573F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 981165591D5C48580065573F /* LaunchScreen.storyboard */; };
+		981165661D5C48580065573F /* HLMagicTools_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 981165651D5C48580065573F /* HLMagicTools_AppTests.m */; };
+		981165711D5C48580065573F /* HLMagicTools_AppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 981165701D5C48580065573F /* HLMagicTools_AppUITests.m */; };
+		981165861D5C49B60065573F /* HLMagicTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 981165851D5C49B60065573F /* HLMagicTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9811658D1D5C49B60065573F /* HLMagicTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 981165831D5C49B60065573F /* HLMagicTools.framework */; };
+		981165941D5C49B60065573F /* HLMagicToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 981165931D5C49B60065573F /* HLMagicToolsTests.m */; };
+		981165981D5C49B60065573F /* HLMagicTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 981165831D5C49B60065573F /* HLMagicTools.framework */; };
+		981165991D5C49B60065573F /* HLMagicTools.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 981165831D5C49B60065573F /* HLMagicTools.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		981165A31D5C4A1B0065573F /* HLDoubleTitleLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 981165A11D5C4A1B0065573F /* HLDoubleTitleLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		981165A41D5C4A1B0065573F /* HLDoubleTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 981165A21D5C4A1B0065573F /* HLDoubleTitleLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		981165621D5C48580065573F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 981165401D5C48580065573F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 981165471D5C48580065573F;
+			remoteInfo = HLMagicTools_App;
+		};
+		9811656D1D5C48580065573F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 981165401D5C48580065573F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 981165471D5C48580065573F;
+			remoteInfo = HLMagicTools_App;
+		};
+		9811658E1D5C49B60065573F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 981165401D5C48580065573F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 981165821D5C49B60065573F;
+			remoteInfo = HLMagicTools;
+		};
+		981165901D5C49B60065573F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 981165401D5C48580065573F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 981165471D5C48580065573F;
+			remoteInfo = HLMagicTools_App;
+		};
+		981165961D5C49B60065573F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 981165401D5C48580065573F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 981165821D5C49B60065573F;
+			remoteInfo = HLMagicTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9811659D1D5C49B60065573F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				981165991D5C49B60065573F /* HLMagicTools.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		981165481D5C48580065573F /* HLMagicTools_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLMagicTools_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9811654C1D5C48580065573F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9811654E1D5C48580065573F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9811654F1D5C48580065573F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		981165511D5C48580065573F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		981165521D5C48580065573F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		981165551D5C48580065573F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		981165571D5C48580065573F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9811655A1D5C48580065573F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9811655C1D5C48580065573F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		981165611D5C48580065573F /* HLMagicTools_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLMagicTools_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		981165651D5C48580065573F /* HLMagicTools_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLMagicTools_AppTests.m; sourceTree = "<group>"; };
+		981165671D5C48580065573F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9811656C1D5C48580065573F /* HLMagicTools_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLMagicTools_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		981165701D5C48580065573F /* HLMagicTools_AppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLMagicTools_AppUITests.m; sourceTree = "<group>"; };
+		981165721D5C48580065573F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		981165831D5C49B60065573F /* HLMagicTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HLMagicTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		981165851D5C49B60065573F /* HLMagicTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLMagicTools.h; sourceTree = "<group>"; };
+		981165871D5C49B60065573F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9811658C1D5C49B60065573F /* HLMagicToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLMagicToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		981165931D5C49B60065573F /* HLMagicToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLMagicToolsTests.m; sourceTree = "<group>"; };
+		981165951D5C49B60065573F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		981165A11D5C4A1B0065573F /* HLDoubleTitleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLDoubleTitleLabel.h; sourceTree = "<group>"; };
+		981165A21D5C4A1B0065573F /* HLDoubleTitleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLDoubleTitleLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		981165451D5C48580065573F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981165981D5C49B60065573F /* HLMagicTools.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9811655E1D5C48580065573F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		981165691D5C48580065573F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9811657F1D5C49B60065573F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		981165891D5C49B60065573F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9811658D1D5C49B60065573F /* HLMagicTools.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9811653F1D5C48580065573F = {
+			isa = PBXGroup;
+			children = (
+				9811654A1D5C48580065573F /* HLMagicTools_App */,
+				981165641D5C48580065573F /* HLMagicTools_AppTests */,
+				9811656F1D5C48580065573F /* HLMagicTools_AppUITests */,
+				981165841D5C49B60065573F /* HLMagicTools */,
+				981165921D5C49B60065573F /* HLMagicToolsTests */,
+				981165491D5C48580065573F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		981165491D5C48580065573F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				981165481D5C48580065573F /* HLMagicTools_App.app */,
+				981165611D5C48580065573F /* HLMagicTools_AppTests.xctest */,
+				9811656C1D5C48580065573F /* HLMagicTools_AppUITests.xctest */,
+				981165831D5C49B60065573F /* HLMagicTools.framework */,
+				9811658C1D5C49B60065573F /* HLMagicToolsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9811654A1D5C48580065573F /* HLMagicTools_App */ = {
+			isa = PBXGroup;
+			children = (
+				9811654E1D5C48580065573F /* AppDelegate.h */,
+				9811654F1D5C48580065573F /* AppDelegate.m */,
+				981165511D5C48580065573F /* ViewController.h */,
+				981165521D5C48580065573F /* ViewController.m */,
+				981165541D5C48580065573F /* Main.storyboard */,
+				981165571D5C48580065573F /* Assets.xcassets */,
+				981165591D5C48580065573F /* LaunchScreen.storyboard */,
+				9811655C1D5C48580065573F /* Info.plist */,
+				9811654B1D5C48580065573F /* Supporting Files */,
+			);
+			path = HLMagicTools_App;
+			sourceTree = "<group>";
+		};
+		9811654B1D5C48580065573F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9811654C1D5C48580065573F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		981165641D5C48580065573F /* HLMagicTools_AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				981165651D5C48580065573F /* HLMagicTools_AppTests.m */,
+				981165671D5C48580065573F /* Info.plist */,
+			);
+			path = HLMagicTools_AppTests;
+			sourceTree = "<group>";
+		};
+		9811656F1D5C48580065573F /* HLMagicTools_AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				981165701D5C48580065573F /* HLMagicTools_AppUITests.m */,
+				981165721D5C48580065573F /* Info.plist */,
+			);
+			path = HLMagicTools_AppUITests;
+			sourceTree = "<group>";
+		};
+		981165841D5C49B60065573F /* HLMagicTools */ = {
+			isa = PBXGroup;
+			children = (
+				981165851D5C49B60065573F /* HLMagicTools.h */,
+				981165871D5C49B60065573F /* Info.plist */,
+				981165A11D5C4A1B0065573F /* HLDoubleTitleLabel.h */,
+				981165A21D5C4A1B0065573F /* HLDoubleTitleLabel.m */,
+			);
+			path = HLMagicTools;
+			sourceTree = "<group>";
+		};
+		981165921D5C49B60065573F /* HLMagicToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				981165931D5C49B60065573F /* HLMagicToolsTests.m */,
+				981165951D5C49B60065573F /* Info.plist */,
+			);
+			path = HLMagicToolsTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		981165801D5C49B60065573F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981165861D5C49B60065573F /* HLMagicTools.h in Headers */,
+				981165A31D5C4A1B0065573F /* HLDoubleTitleLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		981165471D5C48580065573F /* HLMagicTools_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 981165751D5C48580065573F /* Build configuration list for PBXNativeTarget "HLMagicTools_App" */;
+			buildPhases = (
+				981165441D5C48580065573F /* Sources */,
+				981165451D5C48580065573F /* Frameworks */,
+				981165461D5C48580065573F /* Resources */,
+				9811659D1D5C49B60065573F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				981165971D5C49B60065573F /* PBXTargetDependency */,
+			);
+			name = HLMagicTools_App;
+			productName = HLMagicTools_App;
+			productReference = 981165481D5C48580065573F /* HLMagicTools_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		981165601D5C48580065573F /* HLMagicTools_AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 981165781D5C48580065573F /* Build configuration list for PBXNativeTarget "HLMagicTools_AppTests" */;
+			buildPhases = (
+				9811655D1D5C48580065573F /* Sources */,
+				9811655E1D5C48580065573F /* Frameworks */,
+				9811655F1D5C48580065573F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				981165631D5C48580065573F /* PBXTargetDependency */,
+			);
+			name = HLMagicTools_AppTests;
+			productName = HLMagicTools_AppTests;
+			productReference = 981165611D5C48580065573F /* HLMagicTools_AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9811656B1D5C48580065573F /* HLMagicTools_AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9811657B1D5C48580065573F /* Build configuration list for PBXNativeTarget "HLMagicTools_AppUITests" */;
+			buildPhases = (
+				981165681D5C48580065573F /* Sources */,
+				981165691D5C48580065573F /* Frameworks */,
+				9811656A1D5C48580065573F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9811656E1D5C48580065573F /* PBXTargetDependency */,
+			);
+			name = HLMagicTools_AppUITests;
+			productName = HLMagicTools_AppUITests;
+			productReference = 9811656C1D5C48580065573F /* HLMagicTools_AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		981165821D5C49B60065573F /* HLMagicTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9811659A1D5C49B60065573F /* Build configuration list for PBXNativeTarget "HLMagicTools" */;
+			buildPhases = (
+				9811657E1D5C49B60065573F /* Sources */,
+				9811657F1D5C49B60065573F /* Frameworks */,
+				981165801D5C49B60065573F /* Headers */,
+				981165811D5C49B60065573F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HLMagicTools;
+			productName = HLMagicTools;
+			productReference = 981165831D5C49B60065573F /* HLMagicTools.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9811658B1D5C49B60065573F /* HLMagicToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9811659E1D5C49B60065573F /* Build configuration list for PBXNativeTarget "HLMagicToolsTests" */;
+			buildPhases = (
+				981165881D5C49B60065573F /* Sources */,
+				981165891D5C49B60065573F /* Frameworks */,
+				9811658A1D5C49B60065573F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9811658F1D5C49B60065573F /* PBXTargetDependency */,
+				981165911D5C49B60065573F /* PBXTargetDependency */,
+			);
+			name = HLMagicToolsTests;
+			productName = HLMagicToolsTests;
+			productReference = 9811658C1D5C49B60065573F /* HLMagicToolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		981165401D5C48580065573F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = HarwordLiu;
+				TargetAttributes = {
+					981165471D5C48580065573F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					981165601D5C48580065573F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 981165471D5C48580065573F;
+					};
+					9811656B1D5C48580065573F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 981165471D5C48580065573F;
+					};
+					981165821D5C49B60065573F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					9811658B1D5C49B60065573F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 981165471D5C48580065573F;
+					};
+					981165A51D5C4AB80065573F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 981165431D5C48580065573F /* Build configuration list for PBXProject "HLMagicTools_App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9811653F1D5C48580065573F;
+			productRefGroup = 981165491D5C48580065573F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				981165471D5C48580065573F /* HLMagicTools_App */,
+				981165601D5C48580065573F /* HLMagicTools_AppTests */,
+				9811656B1D5C48580065573F /* HLMagicTools_AppUITests */,
+				981165821D5C49B60065573F /* HLMagicTools */,
+				9811658B1D5C49B60065573F /* HLMagicToolsTests */,
+				981165A51D5C4AB80065573F /* HLMagicToolsProduction */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		981165461D5C48580065573F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9811655B1D5C48580065573F /* LaunchScreen.storyboard in Resources */,
+				981165581D5C48580065573F /* Assets.xcassets in Resources */,
+				981165561D5C48580065573F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9811655F1D5C48580065573F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9811656A1D5C48580065573F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		981165811D5C49B60065573F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9811658A1D5C49B60065573F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		981165A91D5C4AC00065573F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the final framework product.\n# 如果工程名称和Framework的Target名称不一样的话，要自定义FMKNAME\n# 例如: FMK_NAME = \"MyFramework\"\nFMK_NAME=\"HLMagicTools\"\n\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n\n# -configuration ${CONFIGURATION}\n# Clean and Building both architectures.\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator clean build\n\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n\nmkdir -p \"${INSTALL_DIR}\"\n\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/${FMK_NAME}\"\n\nrm -r \"${WRK_DIR}\"\n\nopen \"${INSTALL_DIR}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		981165441D5C48580065573F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981165531D5C48580065573F /* ViewController.m in Sources */,
+				981165501D5C48580065573F /* AppDelegate.m in Sources */,
+				9811654D1D5C48580065573F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9811655D1D5C48580065573F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981165661D5C48580065573F /* HLMagicTools_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		981165681D5C48580065573F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981165711D5C48580065573F /* HLMagicTools_AppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9811657E1D5C49B60065573F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981165A41D5C4A1B0065573F /* HLDoubleTitleLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		981165881D5C49B60065573F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981165941D5C49B60065573F /* HLMagicToolsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		981165631D5C48580065573F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 981165471D5C48580065573F /* HLMagicTools_App */;
+			targetProxy = 981165621D5C48580065573F /* PBXContainerItemProxy */;
+		};
+		9811656E1D5C48580065573F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 981165471D5C48580065573F /* HLMagicTools_App */;
+			targetProxy = 9811656D1D5C48580065573F /* PBXContainerItemProxy */;
+		};
+		9811658F1D5C49B60065573F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 981165821D5C49B60065573F /* HLMagicTools */;
+			targetProxy = 9811658E1D5C49B60065573F /* PBXContainerItemProxy */;
+		};
+		981165911D5C49B60065573F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 981165471D5C48580065573F /* HLMagicTools_App */;
+			targetProxy = 981165901D5C49B60065573F /* PBXContainerItemProxy */;
+		};
+		981165971D5C49B60065573F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 981165821D5C49B60065573F /* HLMagicTools */;
+			targetProxy = 981165961D5C49B60065573F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		981165541D5C48580065573F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				981165551D5C48580065573F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		981165591D5C48580065573F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9811655A1D5C48580065573F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		981165731D5C48580065573F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		981165741D5C48580065573F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		981165761D5C48580065573F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HLMagicTools_App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HarwordLiu.HLMagicTools-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		981165771D5C48580065573F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HLMagicTools_App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HarwordLiu.HLMagicTools-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		981165791D5C48580065573F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HLMagicTools_AppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HarwordLiu.HLMagicTools-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLMagicTools_App.app/HLMagicTools_App";
+			};
+			name = Debug;
+		};
+		9811657A1D5C48580065573F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HLMagicTools_AppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HarwordLiu.HLMagicTools-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLMagicTools_App.app/HLMagicTools_App";
+			};
+			name = Release;
+		};
+		9811657C1D5C48580065573F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HLMagicTools_AppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HarwordLiu.HLMagicTools-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HLMagicTools_App;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9811657D1D5C48580065573F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HLMagicTools_AppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HarwordLiu.HLMagicTools-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HLMagicTools_App;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+		9811659B1D5C49B60065573F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HLMagicTools/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HarwordLiu.HLMagicTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9811659C1D5C49B60065573F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HLMagicTools/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HarwordLiu.HLMagicTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9811659F1D5C49B60065573F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HLMagicToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HarwordLiu.HLMagicToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLMagicTools_App.app/HLMagicTools_App";
+			};
+			name = Debug;
+		};
+		981165A01D5C49B60065573F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HLMagicToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HarwordLiu.HLMagicToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLMagicTools_App.app/HLMagicTools_App";
+			};
+			name = Release;
+		};
+		981165A71D5C4AB80065573F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		981165A81D5C4AB80065573F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		981165431D5C48580065573F /* Build configuration list for PBXProject "HLMagicTools_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				981165731D5C48580065573F /* Debug */,
+				981165741D5C48580065573F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		981165751D5C48580065573F /* Build configuration list for PBXNativeTarget "HLMagicTools_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				981165761D5C48580065573F /* Debug */,
+				981165771D5C48580065573F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		981165781D5C48580065573F /* Build configuration list for PBXNativeTarget "HLMagicTools_AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				981165791D5C48580065573F /* Debug */,
+				9811657A1D5C48580065573F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9811657B1D5C48580065573F /* Build configuration list for PBXNativeTarget "HLMagicTools_AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9811657C1D5C48580065573F /* Debug */,
+				9811657D1D5C48580065573F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9811659A1D5C49B60065573F /* Build configuration list for PBXNativeTarget "HLMagicTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9811659B1D5C49B60065573F /* Debug */,
+				9811659C1D5C49B60065573F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9811659E1D5C49B60065573F /* Build configuration list for PBXNativeTarget "HLMagicToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9811659F1D5C49B60065573F /* Debug */,
+				981165A01D5C49B60065573F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		981165A61D5C4AB80065573F /* Build configuration list for PBXAggregateTarget "HLMagicToolsProduction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				981165A71D5C4AB80065573F /* Debug */,
+				981165A81D5C4AB80065573F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 981165401D5C48580065573F /* Project object */;
+}

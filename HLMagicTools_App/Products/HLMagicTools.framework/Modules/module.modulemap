@@ -1,0 +1,6 @@
+framework module HLMagicTools {
+  umbrella header "HLMagicTools.h"
+
+  export *
+  module * { export * }
+}
